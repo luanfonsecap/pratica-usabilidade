@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Confeitaria Maria Chocolate</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header
+      class="container row flex align-items-center justify-content-center col p-4"
+    >
+      <div class="logoImg mr-auto">
+        <img src="imagens/logo.png" alt="Maria Chocolate" height="100" />
+      </div>
+      <div class="titulo mr-auto">
+        <h1>Confeitando para a alegria da sua vida...</h1>
+      </div>
+    </header>
+    <nav>
+      <ul class="container row">
+        <li class="m-2"><a href="index.html">Home</a></li>
+        <li class="m-2"><a href="bolos.html">Bolos</a></li>
+        <li class="m-2"><a href="tortas.html">Tortas</a></li>
+        <li class="m-2"><a href="festas.html">Festas</a></li>
+        <li class="m-2"><a href="contatos.html">Contatos</a></li>
+      </ul>
+    </nav>
+
+    <section class="container col justify-content-center">
+      <form class="form">
+        <div class="input-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" />
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" />
+        </div>
+
+        <div class="input-group">
+          <label for="tipo-contato">Tipo do contato:</label>
+          <select name="tipo-contato" id="tipo-contato">
+            <option value="Elogio">Elogio</option>
+            <option value="Dúvidas">Dúvidas</option>
+            <option value="Reclamações">Reclamações</option>
+            <option value="Pedidos">Pedidos</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem"></textarea>
+        </div>
+
+        <div class="input-group">
+          <input type="checkbox" name="mensagens" id="mensagens" />
+          <label class="label-checkbox" for="mensagens"
+            >Quero receber mensagens deliciosas...</label
+          >
+        </div>
+
+        <button class="button-enviar" type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer class="p-2 col">
+      <p class="col row justify-content-center">
+        Desenvolvido como exercício da UC Usabilidade, Desenvolvimento Web,
+        Mobile e Jogos. ©Copyright 2022. Todos os Direitos Reservados.
+      </p>
+    </footer>
+  </body>
+</html>

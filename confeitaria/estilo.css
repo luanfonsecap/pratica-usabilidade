@@ -1,0 +1,99 @@
+html body {
+  font-family: Verdana, sans-serif;
+  height: 100vh;
+}
+
+header {
+  background: #ffbbdd;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+}
+
+footer {
+  background: #ffbbdd;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+nav {
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  background: #f0b0d0;
+}
+
+nav li {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav li a {
+  color: #fff;
+}
+
+.titulo {
+  color: #fff;
+}
+
+.titulo-pagina {
+  text-align: center;
+}
+
+.produto {
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.produtoImagem {
+  margin: 10px;
+}
+
+.detalhes {
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+.detalhes p {
+  text-align: center;
+}
+
+.detalhes span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  width: 340px !important;
+  margin: 8px;
+  justify-content: space-around;
+  align-items: center !important;
+}
+
+.input-group label {
+  margin-right: 8px;
+}
+
+.input-group select {
+  width: 200px;
+}
+
+.label-checkbox {
+  margin: 0 !important;
+}
+
+.button-enviar {
+  background: #ffbbdd;
+  color: #fff;
+  width: 340px;
+}
